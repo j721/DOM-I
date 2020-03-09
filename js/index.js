@@ -55,3 +55,25 @@ navigation[2].textContent =siteContent["nav"]["nav-item-3"];
 navigation[3].textContent =siteContent["nav"]["nav-item-4"];
 navigation[4].textContent =siteContent["nav"]["nav-item-5"];
 navigation[5].textContent =siteContent["nav"]["nav-item-6"];
+
+const headings = document.querySelectorAll("h4");
+headings[0].textContent =siteContent["main-content"]["features-h4"];
+headings[1].textContent =siteContent["main-content"]["about-h4"];
+headings[2].textContent =siteContent["main-content"]["services-h4"];
+headings[3].textContent =siteContent["main-content"]["product-h4"];
+headings[4].textContent =siteContent["main-content"]["vision-h4"];
+headings[5].textContent =siteContent["contact"]["contact-h4"];
+
+const paragraph =document.querySelectorAll("p");
+paragraph[0].textContent =siteContent["main-content"]["features-content"];
+paragraph[1].textContent =siteContent["main-content"]["about-content"];
+paragraph[2].textContent =siteContent["main-content"]["services-content"];
+paragraph[3].textContent =siteContent["main-content"]["product-content"];
+paragraph[4].textContent =siteContent["main-content"]["vision-content"];
+paragraph[5].textContent =siteContent["contact"]["address"];
+paragraph[6].textContent =siteContent["contact"]["phone"];
+paragraph[7].textContent =siteContent["contact"]["email"];
+paragraph[8].textContent =siteContent["footer"]["copyright"];
+
+let middleImage =document.getElementById("middle-img");
+middleImage.setAttribute('src', siteContent["main-content"]["middle-img-src"]);
