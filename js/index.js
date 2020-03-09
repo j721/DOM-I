@@ -77,3 +77,11 @@ paragraph[8].textContent =siteContent["footer"]["copyright"];
 
 let middleImage =document.getElementById("middle-img");
 middleImage.setAttribute('src', siteContent["main-content"]["middle-img-src"]);
+
+
+// updates to navigation
+
+const newNav = document.querySelectorAll('a');
+newNav.forEach(element =>{
+  element.style.color ="green";
+});
