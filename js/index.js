@@ -81,6 +81,16 @@ middleImage.setAttribute('src', siteContent["main-content"]["middle-img-src"]);
 
 // updates to navigation
 
+const newLink = document.createElement("a");
+newLink.textContent ="Home";
+const parentElement = document.querySelector('nav');
+parentElement.prepend(newLink);
+
+const newLink2 = document.createElement("a");
+newLink2.textContent ="Login";
+parentElement.append(newLink2);
+
+
 const newNav = document.querySelectorAll('a');
 newNav.forEach(element =>{
   element.style.color ="green";
