@@ -40,3 +40,10 @@ const siteContent = {
 // Example: Update the img src for the logo
 let logo = document.getElementById("logo-img");
 logo.setAttribute('src', siteContent["nav"]["img-src"])
+
+let circle = document.getElementById("cta-img");
+circle.setAttribute('src', siteContent["cta"]["img-src"])
+
+document.querySelector('h1').textContent ="DOM is Awesome"
+
+document.querySelector('button').textContent ="Get Started"
