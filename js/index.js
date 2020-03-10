@@ -95,3 +95,8 @@ const newNav = document.querySelectorAll('a');
 newNav.forEach(element =>{
   element.style.color ="green";
 });
+
+// Stretch
+
+document.querySelector('body').style.backgroundColor ="beige";
+document.querySelector('body').style.color ="#8514ff";
